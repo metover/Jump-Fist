@@ -1,5 +1,5 @@
-import pyautogui
 import webbrowser
+import pyautogui
 import cv2
 
 yumruk_cascade = cv2.CascadeClassifier('fist.xml')
