@@ -27,7 +27,7 @@ while True:
     _, frame = video_capture.read()
     det = 0
     canvas = tanimla(frame)
-    cv2.imshow('Oyun', canvas)
+    cv2.imshow('Yumruk Oyunu - Metover', canvas)
     cv2.waitKey(1)
     if (det == 1):
         pyautogui.press("space")
