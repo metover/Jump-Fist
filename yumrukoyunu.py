@@ -21,8 +21,7 @@ def open_game(browser, url):
 
 video_capture = cv2.VideoCapture(0)
 
-open_game(browser='windows-default',
-          url='http://apps.thecodepost.org/trex/trex.html')
+open_game(browser='windows-default',url='http://apps.thecodepost.org/trex/trex.html')
 
 while True:
     _, frame = video_capture.read()
