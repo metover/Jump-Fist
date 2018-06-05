@@ -4,6 +4,8 @@ import cv2
 
 yumruk_cascade = cv2.CascadeClassifier('fist.xml')
 
+def browser_oyun(browser, url):
+    return webbrowser.get(browser).open(url)
 
 def tanimla(goruntu):
     global det
@@ -14,14 +16,9 @@ def tanimla(goruntu):
         det = 1
     return goruntu
 
-
-def open_game(browser, url):
-    return webbrowser.get(browser).open(url)
-
-
 video_capture = cv2.VideoCapture(0)
 
-open_game(browser='windows-default',url='http://apps.thecodepost.org/trex/trex.html')
+browser_oyun(browser='windows-default',url='http://apps.thecodepost.org/trex/trex.html')
 
 while True:
     _, frame = video_capture.read()
