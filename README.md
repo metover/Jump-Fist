@@ -1,7 +1,7 @@
-# Yumruk-Oyunu
+# Jump Fist
 ![](https://media.giphy.com/media/w85QqVSEGyioxBqre7/giphy.gif)  
 
-## Yumruk ile Dinozoru Zıplat
+## Jump Fist Webcam
 
 Klasör dizininde komut penceresini açıp "python yumrukoyunu.py" komutunu girdikten sonra oyun başlayacaktır.
 
